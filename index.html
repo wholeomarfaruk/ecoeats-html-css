@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco Eats</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- fancybox css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <!-- external css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- ===== Fontawesome CDN Link ===== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/3c9b731536.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--header start-->
+  <nav class="navbar  sticky-top navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-success fw-bolder" href="#"><i class="fa-brands fa-pagelines me-1"></i>ইকোইটস</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link navbar-link" aria-current="page" href="#delivery-box">পরিচিতি</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-link" href="#difference">পার্থক্য</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link navbar-link" href="#feature" aria-disabled="true">ফিচারস</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-link" href="#review" aria-disabled="true">রিভিউ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-link" href="#question" aria-disabled="true">জিজ্ঞাসা</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-link" href="#gallery" aria-disabled="true">গ্যালারী</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link navbar-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              যোগাযোগ
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">ফেসবুক</a></li>
+              <li><a class="dropdown-item" href="#"> ইনস্টাগ্রাম</a></li>
+              <li><a class="dropdown-item" href="#">হোয়াটসঅ্যাপ</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a href="#order" class="">
+          <button class="btn nav-button" type="submit">
+            <i class="fa-solid fa-bag-shopping pe-2"></i>অর্ডার করুন
+          </button>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- header End -->
+  <div class="container mt-5 justify-content-center">
+    <div class="row">
+      <div class="col-md-8">
+        <h2 class="titel fw-bolder mb-5">খুলনার বিখ্যাত চুইঝাল!</h2>
+        <p class="text">
+          দৈনিক একঘেয়েমি রান্না খেতে খেতে বিরক্ত? রান্নায় এমন কিছু ব্যবহার
+          করতে চান যেন রান্নার স্বাদ হয় আরো স্পেশাল? প্রতিদিনের রান্নায়
+          টুইস্ট আনতে রান্নায় ব্যবহার করুন “চুইঝাল”। ঝাঁঝালো ঝাঁঝ যুক্ত এই
+          মসলা রান্নায় মিশে দারুন স্বাদ তৈরি করে। যেকোন রান্নায় যোগ করে এক
+          অতুলনীয় ফ্লেভার। বিভিন্ন মুখরোচক খাবারকে আরো বেশি মুখরোচক করে তোলে
+          এই চুইঝাল। যেসব রান্নায় ব্যবহার করা যায়:
+        </p>
+        <ul role="list" class="mt-10 grid grid-col-2 gap-x-8 gap-y-3 text-base leading-7 sm:grid-col-3 list-item">
+          <li class="flex gap-x-3 text-xl text-slate-400 font-medium items-center">
+            <i class="fa-solid fa-circle-check me-3"></i>গরুর মাংস
+          </li>
+          <li class="flex gap-x-3 text-xl text-slate-400 font-medium items-center">
+            <i class="fa-solid fa-circle-check me-3"></i>হাঁসের মাংস
+          </li>
+          <li class="flex gap-x-3 text-xl text-slate-400 font-medium items-center">
+            <i class="fa-solid fa-circle-check me-3"></i>মাছ
+          </li>
+          <li class="flex gap-x-3 text-xl text-slate-400 font-medium items-center">
+            <i class="fa-solid fa-circle-check me-3"></i>নিহারী
+          </li>
+          <li class="flex gap-x-3 text-xl text-slate-400 font-medium items-center">
+            <i class="fa-solid fa-circle-check me-3"></i>খাসির মাংস
+          </li>
+          <li class="flex gap-x-3 text-xl text-slate-400 font-medium items-center">
+            <i class="fa-solid fa-circle-check me-3"></i>মুড়ো ঘণ্ট
+          </li>
+          <li><i class="fa-solid fa-circle-check me-3"></i>সবজি</li>
+          <li class="flex gap-x-3 text-xl text-slate-400 font-medium items-center">
+            <i class="fa-solid fa-circle-check me-3"></i> হালিম
+          </li>
+          <li class="flex gap-x-3 text-xl text-slate-400 font-medium items-center">
+            <i class="fa-solid fa-circle-check me-3"></i>মুরগির মাংস
+          </li>
+          <li class="flex gap-x-3 text-xl text-slate-400 font-medium items-center">
+            <i class="fa-solid fa-circle-check me-3"></i>ভুনা তরকারি
+          </li>
+          <li class="flex gap-x-3 text-xl text-slate-400 font-medium items-center">
+            <i class="fa-solid fa-circle-check me-3"></i>খিচুড়ি
+          </li>
+          <li class="flex gap-x-3 text-xl text-slate-400 font-medium items-center">
+            <i class="fa-solid fa-circle-check me-3"></i> চটপটি
+          </li>
+        </ul>
+        <div class="ratting d-flex mt-4 fs-4">
+          <i class="fa-solid fa-star me-1"></i>
+          <i class="fa-solid fa-star me-1"></i>
+          <i class="fa-solid fa-star me-1"></i>
+          <i class="fa-solid fa-star me-1"></i>
+          <i class="fa-solid fa-star me-1"></i>
+        </div>
+        <p class="gold-text mt-2">
+          ৩০,০০০ হাজারেরও অধিক গ্রাহকের কাছে <br />
+          আমরা চুই ঝাল পৌঁছে দিয়েছি!
+        </p>
+        <div class="d-flex gap-2">
+          <button class="btn btn-order">
+            <i class="fa-solid fa-cart-shopping me-2"></i>অর্ডার করুন
+          </button>
+          <button class="btn btn-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </button>
+          <button class="btn btn-tel">
+            <i class="fa-solid fa-phone-volume"></i>
+          </button>
+        </div>
+      </div>
+      <!-- facebook content -->
+      <div class="facebook-content col-md-4 mt-3">
+        <span>
+          <iframe name="f19677c65523e8af2" width="100%" height="1000px" data-testid="fb:video Facebook Social Plugin"
+            title="fb:video Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true"
+            scrolling="no" allow="encrypted-media"
+            src="https://www.facebook.com/v3.3/plugins/video.php?allowfullscreen=true&amp;app_id=1309697205772819&amp;autoplay=false&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dffa10d59e9e20a1cb%26domain%3Decoeatsbd.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fecoeatsbd.com%252Ff70e32d14d1ae0e6b%26relation%3Dparent.parent&amp;container_width=384&amp;controls=true&amp;href=https%3A%2F%2Fwww.facebook.com%2Fecoeatsbangladesh%2Fvideos%2F1998056963903868&amp;locale=en_US&amp;sdk=joey"
+            style="
+                border: none;
+                visibility: visible;
+                width: 100%;
+                height: 512px;
+              " class=""></iframe>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="container list-text-container mt-5" id="difference">
+    <div class="row">
+      <h2 class="titel fw-bolder text-center mb-5 ">চুইঝালের পার্থক্যসমূহ</h2>
+      <div class="row mt-4">
+        <div class="col-md">
+          <img src="image/tree.jpg" alt="" class="w-100 rounded" />
+        </div>
+        <div class="col-md">
+          <h5 class="fw-bolder titel-two">গাছ চুইঝাল</h5>
+          <hr />
+          <div class="list-text">
+            <p>
+              চুইঝাল গাছের কাণ্ডকে গাছ চুইঝাল বলে। স্থানীয়দের ভাষায় একে
+              খাড়ি চুই বলা হয়ে থাকে।
+            </p>
+            <hr class="mb-2" />
+            <p>
+              গাছ চুইঝাল সাধারণত রান্নার সময় গলে যায় না, তাই আস্ত অবস্থায়
+              থাকে।
+            </p>
+            <hr class="mb-2" />
+            <p>
+              ঝাঁঝালো স্বাদযুক্ত এবং রান্নায় গলে না গিয়ে আস্ত থাকার জন্য
+              যারা চিবিয়ে ঝাল স্বাদ উপভোগ তাদের পছন্দের তালিকার শীর্ষে থাকে
+              গাছ চুইঝাল।
+            </p>
+            <hr class="mb-2" />
+            <p>
+              সাধারণত একসাথে অধিক পরিমাণে মাংস রান্না, খিচুড়ি, চটপটি, হালিম,
+              ছোলা ভুনা এবং সুস্বাদু আচার তৈরিতে গাছ চুই ঝাল ব্যবহার করা হয়।
+            </p>
+            <hr class="mb-2" />
+            <p>
+              মাতৃগাছের ধরনভেদে গাছ চুইঝাল মাঝারি থেকে অধিক ঝাল স্বাদের হয়ে
+              থাকে।
+            </p>
+          </div>
+        </div>
+        <div class="col-md order-md-1 order-2">
+          <h5 class="fw-bolder titel-three">এটো চুইঝাল</h5>
+          <hr />
+          <div class="list-text-two">
+            <p>
+              চুইঝাল গাছের গোড়া এবং গোড়া সংলগ্ন মোটা অথবা মাঝারি মোটা অংশকে
+              এটো চুইঝাল বলে।
+            </p>
+            <hr class="mb-2" />
+            <p>
+              এঁটো চুইঝালে ফাইবার কম থাকায় এটি রান্নায় গলে গিয়ে গ্রেভি
+              ফ্লেভার নিয়ে আসে।
+            </p>
+            <hr class="mb-2" />
+            <p>
+              তুলনামূলক কম-ঝালযুক্ত এবং রান্নায় গলে যাওয়ার জন্য এই চুইঝালও
+              কিন্ত বেশ সুস্বাদু এবং সবার পছন্দের তালিকায় শীর্ষে থাকে।
+            </p>
+            <hr class="mb-2" />
+            <p>
+              যেকোনো ধরনের মাংস, ঝোলের তরকারি, মাছের ঝোল, মাছ ভুনা সহ যেকোনো
+              ধরনের ভুনা তরকারিতে এঁটো চুইঝাল ব্যবহার করা হয়।
+            </p>
+            <hr class="mb-2" />
+            <p>মাঝারি সাইজের এটো চুইঝালে সাধারণত ঝালের তীব্রতা বেশি থাকে।</p>
+          </div>
+        </div>
+        <div class="col-md list-text-img order-md-2 order-1">
+          <img src="image/tree.jpg" alt="" class="w-100 rounded" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container section" id="feature">
+    <div class="row">
+      <div class="col-md-12 mb-5">
+        <h2 class="titel">কেন আমরাই সেরা</h2>
+      </div>
+      <div class="col-md-3 p-3 service-main">
+        <div class="service-box">
+          <i class="fa-solid fa-ribbon"></i>
+          <h5>অথেন্টিক প্রোডাক্ট</h5>
+          <p>
+            আমাদের কাছেই পাচ্ছেন সেরা স্বাদ যুক্ত খুলনার অথেন্টিক দেশীয়
+            চুইঝাল
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 p-3 service-main">
+        <div class="service-box">
+          <i class="fa-solid fa-crown"></i>
+          <h5>প্রিমিয়াম কোয়ালিটি</h5>
+          <p>
+            রেগুলার বা অপরিপক্ক নয়, আমরাই দিচ্ছি বাছাইকৃত প্রিমিয়াম
+            কোয়ালিটির চুইঝাল
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 p-3 service-main">
+        <div class="service-box">
+          <i class="fa-solid fa-clock-rotate-left"></i>
+          <h5>রিফান্ড পলিসি</h5>
+          <p>
+            যেকোন ত্রুটিপূর্ণ পণ্যের ক্ষেত্রে থাকছে পণ্য অথবা টাকা রিফান্ডের
+            সুবিধা
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 p-3 service-main">
+        <div class="service-box">
+          <i class="fa-solid fa-truck"></i>
+          <h5>ক্যাশ অন ডেলিভারী</h5>
+          <p>আমাদের রয়েছে পন্য হাতে পেয়ে তারপর টাকা পরিশোধ করার সুব্যবস্থা</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="banner" class="py-5">
+    <div class="container">
+      <div class="row">
+        <img src="image/banner-large.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- testimonials -->
+  <div class="container" id="review">
+    <h2 class="titel mb-4">কাস্টমার রিভিউ</h2>
+    <section class="">
+      <!-- Swiper container -->
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content mb-3">
+          <!-- Swiper slide item 1 -->
+          <div class="swiper-slide card p-2">
+            <div class="card-content">
+              <!-- Profile image -->
+              <div class="content d-flex">
+                <div class="image">
+                  <img src="image/avater.jpg" alt="Profile Image 1" />
+                </div>
+                <!-- Name and profession -->
+                <div class="name-button row d-flex">
+                  <div class="col">
+                    <h4 class="name mb-1 text-start mt-3 ms-4">Sajid</h4>
+                    <p class="fw-bold ms-4">Dhaka</p>
+                  </div>
+                  <div class="col mt-4">
+                    <button class="btn review-button">
+                      <i class="fa-brands fa-facebook"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Rating -->
+              <div class="rating mt-4">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="review mt-2">
+                <p class="review-text">
+                  খুবই ভালো সার্ভিস পেয়েছি। প্রোডাক্টের মান দারুন। এবং পন্যটি
+                  অর্গানিক। এই পেজের প্রতি কৃতজ্ঞতা জানাচ্ছি। ধন্যবাদ আপনাদের।
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Swiper slide item 2 -->
+          <div class="swiper-slide card p-2">
+            <div class="card-content">
+              <!-- Profile image -->
+              <div class="content d-flex">
+                <div class="image">
+                  <img src="image/avater.jpg" alt="Profile Image 1" />
+                </div>
+                <!-- Name and profession -->
+                <div class="name-button row d-flex">
+                  <div class="col">
+                    <h4 class="name mb-1 text-start mt-3 ms-4">Sajid</h4>
+                    <p class="fw-bold ms-4">Dhaka</p>
+                  </div>
+                  <div class="col mt-4">
+                    <button class="btn review-button">
+                      <i class="fa-brands fa-facebook"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Rating -->
+              <div class="rating mt-4">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="review mt-2">
+                <p class="review-text">
+                  খুবই ভালো সার্ভিস পেয়েছি। প্রোডাক্টের মান দারুন। এবং পন্যটি
+                  অর্গানিক। এই পেজের প্রতি কৃতজ্ঞতা জানাচ্ছি। ধন্যবাদ আপনাদের।
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Swiper slide item 3 -->
+          <div class="swiper-slide card p-2">
+            <div class="card-content">
+              <!-- Profile image -->
+              <div class="content d-flex">
+                <div class="image">
+                  <img src="image/avater.jpg" alt="Profile Image 1" />
+                </div>
+                <!-- Name and profession -->
+                <div class="name-button row d-flex">
+                  <div class="col">
+                    <h4 class="name mb-1 text-start mt-3 ms-4">Sajid</h4>
+                    <p class="fw-bold ms-4">Dhaka</p>
+                  </div>
+                  <div class="col mt-4">
+                    <button class="btn review-button">
+                      <i class="fa-brands fa-facebook"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Rating -->
+              <div class="rating mt-4">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="review mt-2">
+                <p class="review-text">
+                  খুবই ভালো সার্ভিস পেয়েছি। প্রোডাক্টের মান দারুন। এবং পন্যটি
+                  অর্গানিক। এই পেজের প্রতি কৃতজ্ঞতা জানাচ্ছি। ধন্যবাদ আপনাদের।
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Swiper slide item 4 -->
+          <div class="swiper-slide card p-2">
+            <div class="card-content">
+              <!-- Profile image -->
+              <div class="content d-flex">
+                <div class="image">
+                  <img src="image/avater.jpg" alt="Profile Image 1" />
+                </div>
+                <!-- Name and profession -->
+                <div class="name-button row d-flex">
+                  <div class="col">
+                    <h4 class="name mb-1 text-start mt-3 ms-4">Sajid</h4>
+                    <p class="fw-bold ms-4">Dhaka</p>
+                  </div>
+                  <div class="col mt-4">
+                    <button class="btn review-button">
+                      <i class="fa-brands fa-facebook"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Rating -->
+              <div class="rating mt-4">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="review mt-2">
+                <p class="review-text">
+                  খুবই ভালো সার্ভিস পেয়েছি। প্রোডাক্টের মান দারুন। এবং পন্যটি
+                  অর্গানিক। এই পেজের প্রতি কৃতজ্ঞতা জানাচ্ছি। ধন্যবাদ আপনাদের।
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Swiper slide item 5 -->
+          <div class="swiper-slide card p-2">
+            <div class="card-content">
+              <!-- Profile image -->
+              <div class="content d-flex">
+                <div class="image">
+                  <img src="image/avater.jpg" alt="Profile Image 1" />
+                </div>
+                <!-- Name and profession -->
+                <div class="name-button row d-flex">
+                  <div class="col">
+                    <h4 class="name mb-1 text-start mt-3 ms-4">Sajid</h4>
+                    <p class="fw-bold ms-4">Dhaka</p>
+                  </div>
+                  <div class="col mt-4">
+                    <button class="btn review-button">
+                      <i class="fa-brands fa-facebook"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Rating -->
+              <div class="rating mt-4">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="review mt-2">
+                <p class="review-text">
+                  খুবই ভালো সার্ভিস পেয়েছি। প্রোডাক্টের মান দারুন। এবং পন্যটি
+                  অর্গানিক। এই পেজের প্রতি কৃতজ্ঞতা জানাচ্ছি। ধন্যবাদ আপনাদের।
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Swiper slide item 6 -->
+          <div class="swiper-slide card p-2">
+            <div class="card-content">
+              <!-- Profile image -->
+              <div class="content d-flex">
+                <div class="image">
+                  <img src="image/avater.jpg" alt="Profile Image 1" />
+                </div>
+                <!-- Name and profession -->
+                <div class="name-button row d-flex">
+                  <div class="col">
+                    <h4 class="name mb-1 text-start mt-3 ms-4">Sajid</h4>
+                    <p class="fw-bold ms-4">Dhaka</p>
+                  </div>
+                  <div class="col mt-4">
+                    <button class="btn review-button">
+                      <i class="fa-brands fa-facebook"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Rating -->
+              <div class="rating mt-4">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="review mt-2">
+                <p class="review-text">
+                  খুবই ভালো সার্ভিস পেয়েছি। প্রোডাক্টের মান দারুন। এবং পন্যটি
+                  অর্গানিক। এই পেজের প্রতি কৃতজ্ঞতা জানাচ্ছি। ধন্যবাদ আপনাদের।
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Swiper navigation buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+  </div>
+  <!-- testimonials end -->
+  <!-- Qus Ans -->
+  <div class="container mt-5 qus-ask" id="question">
+    <div class="row">
+      <h2 class="titel mb-4">সচরাচর জিজ্ঞাস্য প্রশ্নাবলি</h2>
+      <!-- accordion -->
+      <div class="accordion mt-5" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              <strong class="accordion-titel">চুই ঝাল কি?</strong>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="accordion-text">
+                চুইঝাল পানের লতার মত এক ধরনের গাছ, এর শিকড় ও কান্ড খাবারে
+                ব্যবহার হয়ে থাকে। চুইঝাল মসলা ও ঝাল হিসেবে সবচেয়ে বেশি
+                ব্যবহৃত হয়। এটি খেতে অনেকটা আদা ও গোলমরিচের মত ঝাঝালো,
+                রান্নার পর টুকরোগুলো চুষে বা চিবিয়ে খাওয়ার সাথে সাথে এর
+                দারুন স্বাদ উপভোগ করা যায়। খুলনা অঞ্চলের দিকে মাংস রান্নায়
+                এই চুইঝাল ব্যবহার ব্যাপক প্রচলিত।
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              <strong class="accordion-titel">চুইঝাল কিভাবে কাটব?</strong>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="accordion-text">
+                চুইঝাল কাটার আগে অবশ্যই ১০ থেকে ১৫ মিনিট পানিতে ভিজিয়ে
+                রাখবেন। এরপর প্রথমত আশ বরাবর লম্বালম্বি কেটে নিবেন। তারপর
+                প্রয়োজনমত ছোট বড় টুকরো করে নিন।
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapsethree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapsethree">
+              <strong class="accordion-titel">এক কেজি মাংসে কতটুকু চুই ঝাল দিব?</strong>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapsethree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="accordion-text">
+                সাধারনত ১ কেজি মাংসে ৫০-৬০ গ্রাম চুইঝালই যথেষ্ট। তাই ৫০০ গ্রাম
+                চুইঝাল দিয়ে খুব ভালোভাবেই ৮-১০ কেজি মাংস রান্না করা যায়।
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Pic -->
+  <div class="container justify-content-center mt-5 product-gallrey" id="gallery">
+    <div class="row">
+      <h2 class="col-md-12 titel mt-5">চুইঝাল গ্যালারী</h2>
+    </div>
+    <div class="row mt-5" id="lightgallery">
+
+      <a href="image/1.jpg" class="col-md-3 gallrey" class="item" data-fancybox="gallery-item"
+        data-caption="গাছ চুইঝাল">
+        <img class="w-100 gallrey-pic" src="image/1.jpg" alt="" lazy="loading" />
+      </a>
+      <a href="image/2.jpg" class="col-md-3 gallrey" class="item" data-fancybox="gallery-item"
+        data-caption="গাছ চুইঝাল">
+        <img class="w-100 gallrey-pic" src="image/2.jpg" alt="" lazy="loading" />
+      </a>
+      <a href="image/3.jpg" class="col-md-3 gallrey" class="item" data-fancybox="gallery-item"
+        data-caption="গাছ চুইঝাল">
+        <img class="w-100 gallrey-pic" src="image/3.jpg" alt="" lazy="loading" />
+      </a>
+      <a href="image/4.jpg" class="col-md-3 gallrey" class="item" data-fancybox="gallery-item"
+        data-caption="গাছ চুইঝাল">
+        <img class="w-100 gallrey-pic" src="image/4.jpg" alt="" lazy="loading" />
+      </a>
+      <a href="image/5.jpg" class="col-md-3 gallrey" class="item" data-fancybox="gallery-item"
+        data-caption="গাছ চুইঝাল">
+        <img class="w-100 gallrey-pic" src="image/5.jpg" alt="" lazy="loading" />
+      </a>
+      <a href="image/6.jpg" class="col-md-3 gallrey" class="item" data-fancybox="gallery-item"
+        data-caption="গাছ চুইঝাল">
+        <img class="w-100 gallrey-pic" src="image/6.jpg" alt="" lazy="loading" />
+      </a>
+      <a href="image/7.jpg" class="col-md-3 gallrey" class="item" data-fancybox="gallery-item"
+        data-caption="গাছ চুইঝাল">
+        <img class="w-100 gallrey-pic" src="image/7.jpg" alt="" lazy="loading" />
+      </a>
+      <a href="image/8.jpg" class="col-md-3 gallrey" class="item" data-fancybox="gallery-item"
+        data-caption="গাছ চুইঝাল">
+        <img class="w-100 gallrey-pic" src="image/8.jpg" alt="" lazy="loading" />
+      </a>
+
+    </div>
+
+
+  </div>
+
+
+
+  <div class="container mt-5" id="order">
+    <form action="" method="POST">
+
+      <div class="row gap-4">
+        <h2 class="titel mt-5 mb-5">অর্ডার করুন এখনই</h2>
+        <div class="col-md">
+          <h3 class="some-heading">প্রোডাক্ট নির্বাচন করুন</h3>
+
+          <div class="row gap-3 product-list">
+
+            <div id="product-1" class="p-item col-md-6 d-flex content-site p-selected  p-2"   data-p-id="1"
+              data-p-price="560.00" data-p-weight="500gm" data-p-name="চুইঝাল">
+
+              <img src="image/1.jpg" alt="" class="w-25 rounded me-2" />
+
+              <div class="flex-column w-100">
+                <h5 class="text-success order-name">গাছ চুইঝাল</h5>
+                <br />
+                <div class="price-box d-flex justify-content-between">
+                  <p class="select-box-price mb-auto">৳ 560</p>
+                  <p class="select-box-weight ms-auto mt-auto">500 gm</p>
+                </div>
+              </div>
+
+            </div>
+            <div id="product-2" class="p-item col-md-6 d-flex content-site  p-2 " data-p-id="2"
+              data-p-price="560.00" data-p-weight="500gm" data-p-name="চুইঝাল">
+
+              <img src="image/2.jpg" alt="" class="w-25 rounded me-2" />
+
+              <div class="flex-column w-100">
+                <h5 class="text-success order-name">গাছ চুইঝাল</h5>
+                <br />
+                <div class="price-box d-flex justify-content-between">
+                  <p class="select-box-price mb-auto">৳ 560</p>
+                  <p class="select-box-weight ms-auto mt-auto">500 gm</p>
+                </div>
+              </div>
+
+            </div>
+            <div id="product-3" class="p-item col-md-6 d-flex content-site  p-2 " data-p-id="3"
+              data-p-price="560.00" data-p-weight="500gm" data-p-name="চুইঝাল">
+
+              <img src="image/3.jpg" alt="" class="w-25 rounded me-2" />
+
+              <div class="flex-column w-100">
+                <h5 class="text-success order-name">গাছ চুইঝাল</h5>
+                <br />
+                <div class="price-box d-flex justify-content-between">
+                  <p class="select-box-price mb-auto">৳ 560</p>
+                  <p class="select-box-weight ms-auto mt-auto">500 gm</p>
+                </div>
+              </div>
+
+            </div>
+            <div id="product-4" class="p-item col-md-6 d-flex content-site  p-2"   data-p-id="4"
+              data-p-price="560.00" data-p-weight="500gm" data-p-name="চুইঝাল">
+
+              <img src="image/4.jpg" alt="" class="w-25 rounded me-2" />
+
+              <div class="flex-column w-100">
+                <h5 class="text-success order-name">গাছ চুইঝাল</h5>
+                <br />
+                <div class="price-box d-flex justify-content-between">
+                  <p class="select-box-price mb-auto">৳ 560</p>
+                  <p class="select-box-weight ms-auto mt-auto">500 gm</p>
+                </div>
+              </div>
+
+            </div>
+            <div id="product-5" class="p-item col-md-6 d-flex content-site  p-2  " data-p-id="5"
+              data-p-price="560.00" data-p-weight="500gm" data-p-name="চুইঝাল">
+
+              <img src="image/5.jpg" alt="" class="w-25 rounded me-2" />
+
+              <div class="flex-column w-100">
+                <h5 class="text-success order-name">গাছ চুইঝাল</h5>
+                <br />
+                <div class="price-box d-flex justify-content-between">
+                  <p class="select-box-price mb-auto">৳ 560</p>
+                  <p class="select-box-weight ms-auto mt-auto">500 gm</p>
+                </div>
+              </div>
+
+            </div>
+            <div id="product-6" class="p-item col-md-6 d-flex content-site  p-2" data-p-id="6"
+              data-p-price="960.00" data-p-weight="1kg" data-p-name="গাছ চুইঝাল">
+
+              <img src="image/8.jpg" alt="" class="w-25 rounded me-2" />
+
+              <div class="flex-column w-100">
+                <h5 class="text-success order-name">গাছ চুইঝাল</h5>
+                <br />
+                <div class="price-box d-flex justify-content-between">
+                  <p class="select-box-price mb-auto">৳ 930</p>
+                  <p class="select-box-weight ms-auto mt-auto">1kg</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="box mt-4" id="delivery-box">
+            <h3 class="some-heading mt-5">ডেলিভারী এড্রেস</h3>
+
+            <div class="row mb-3 mt-4">
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">আপনার নাম <span class="text-danger">*</span>
+                </label>
+                <input type="text" class="form-control" id="inputName" placeholder="Full Name" required name="name" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-12">
+                <label for="number" class="form-label">মোবাইল নম্বর <span class="text-danger">*</span>
+                </label>
+                <input type="text" class="form-control" id="inputNumber" placeholder="11 Digit Mobile No" name="phone"
+                  required />
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col-12-md-6">
+                <label for="inputAddress" class="form-label">ঠিকানা <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="inputAddress" name="address"
+                  placeholder="House number and street name" required />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-12-md-6">
+                <div class="form-group">
+                  <label>ডেলিভারি এরিয়া <span class="text-danger">*</span></label>
+                  <div class="select-box">
+
+
+                    <select class="add form-control form-control-md" id="deliveryArea" name="delivery_area"
+                      autocomplete="off" required="">
+                      <option value="" selected="selected">Choose Delivery Area </option>
+
+
+                      <option value="1" data-charge="100"> Inside Dhaka - TK 100 </option>
+                      <option value="2" data-charge="130"> Outside Dhaka - TK 130 </option>
+
+
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="row">
+            <div class="col-md-12 order-heading">
+              <h3 class="some-heading">অর্ডার সামারি</h3>
+            </div>
+            <div id="p-cart">
+
+              <div id="cart-item-1" class="cart-item price-info mt-4" data-p-id="1" data-p-price="560.00"
+                data-p-weight="500gm" data-p-name="গাছ চুইঝাল">
+                <div class="d-flex justify-content-between">
+                  <h5 class="fw-bold">গাছ চুইঝাল<span> 500gm</span></h5>
+                  <button type="button" class="delete-btn">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <p class="price-list"><span>৳ 560.00 </span><span> x </span> <span class="quantity">১</span>
+                    <span>=</span>
+                    <span class="total-price">560</span>
+                  </p>
+                  <span>
+                    <input class="id" value="1" type="hidden" />
+                    <select name="quantity" class="add-quantity form-control ms-auto mt-2" autocomplete="off"
+                      required="">
+                      <option value="1" selected="selected">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                  </span>
+                </div>
+              </div>
+
+
+              <!-- <div id="cart-item-1" class="cart-item price-info mt-4">
+                <div class="d-flex justify-content-between">
+                  <h5 class="fw-bold">মিক্সড চুইঝাল <span>৫০০ গ্রাম</span></h5>
+                  <button class="delete-btn">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <p class="price-list"><span>৳ ৫৬০ </span><span> x </span> <span>১</span> <span>=</span>
+                    <span>৫৬০</span>
+                  </p>
+                  <span>
+
+                    <input class="" type="hidden" />
+                    <select name="delivery_quantity" class="add-quantity form-control ms-auto mt-2" id="delivery"
+                      autocomplete="off" required="">
+                      <option value="" selected="selected">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                      <option value="">4</option>
+                      <option value="">5</option>
+                      <option value="">6</option>
+                      <option value="">7</option>
+                    </select>
+
+                  </span>
+                </div>
+              </div> -->
+
+            </div>
+            <div class="deli-price-info">
+              <div class="total d-flex justify-content-between mt-3">
+                <p class="deli-price-text">মোট</p>
+                <p class="deli-price" id="subtotal_amount" data-subtotal="0">00.00 TK</p>
+              </div>
+              <div class="deli-charge d-flex justify-content-between">
+                <p class="deli-price-text">ডেলিভারী চার্জ</p>
+                <p class="deli-price" id="delivery_charge_amount" data-delivery="100">100.00 TK</p>
+              </div>
+              <div class="cashon-deli d-flex justify-content-between">
+                <p class="deli-price-text">ক্যাশ অন ডেলিভারী চার্জ ১%</p>
+                <p class="deli-price" id="cod_charge_amount" data-cod="1">0.00 TK</p>
+              </div>
+            </div>
+            <div class="subtotal-price-info">
+              <div class="total-price d-flex justify-content-between mt-3">
+                <p class="subtotal-text">সর্বমোট</p>
+                <p class="deli-price" id="total_amount" data-total="0">0.00 tk</p>
+              </div>
+              <div class="deli-methode d-flex justify-content-between">
+                <p class="subtotal-text">ডেলিভারী মেথড</p>
+                <p class="subtotal-text-green">ক্যাশ অন ডেলিভারী</p>
+              </div>
+            </div>
+            <a href="index-order.html" target="_blank"> <button class="btn mt-4 p-2 btn-order w-100">
+                <i class="fa-solid fa-bag-shopping"></i> অর্ডার প্লেস করুন
+              </button> </a>
+            <p class="i-text">
+              <i>বিশেষ দ্রষ্টব্যঃ কাচা পণ্য হওয়ায় ওজনের তারতম্যের কারণে
+                মূল্যমান কিছুটা কম অথবা বেশি হতে পারে।</i>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+
+
+  <!-- call to action -->
+  <div class="container">
+    <div class="row call-to-action justify-content-center">
+      <div class="col-md-6">
+        <h2 class="call-to-action-titel">সাহায্য প্রয়োজন?</h2>
+        <p class="call-to-action-text">
+          যেকোন জিজ্ঞাসা ও অর্ডারজনিত সমস্যায় কল করুন আমাদের হেল্পলাইনে অথবা
+          নক করুন আমাদের হোয়াটসঅ্যাপ বা ফেসবুক পেজে। আমরা আছি সকাল ১০ টা থেকে
+          রাত ৮ টা পর্যন্ত আপনার সেবায়।
+        </p>
+      </div>
+      <div class="d-flex gap-2 justify-content-center mb-5">
+        <button class="btn btn-order">
+          <i class="fa-solid fa-phone me-2"></i>হেল্পলাইন
+        </button>
+        <button class="btn btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </button>
+        <button class="btn btn-tel">
+          <i class="fa-solid fa-phone-volume"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="section-footer mt-5">
+    <div class="container">
+      <div class="row footer-content">
+        <div class="col-md">
+          <a class="footer-brand text-decoration-none text-success fw-bolder fs-4" href="#">
+            <i class="fa-brands fa-pagelines me-1"></i>ইকোইটস</a>
+          <p class="footer-text">ইকোইটস কাজ করছে দক্ষিণাঞ্চলের সর্বাধিক প্রিয় মসলা "চুইঝাল" নিয়ে। অনলাইন জগতে আমরাই
+            প্রথম চুইঝালের প্রকারভেদ বোঝাতে “গাছ চুই” ও “এটো চুই” শব্দটির প্রচলন করি।
+            আপনাদের আস্থা অটুট রেখে ২০২০ সাল থেকে প্রতিনিয়ত সমগ্র দেশে এবং দেশের বাইরেও আমরা চুইঝাল সরবরাহ করে চলেছি
+            অবিরাম।</p>
+        </div>
+        <div class="col-md">
+          <h6 class="footer-titel">আমাদের ঠিকানা</h6>
+          <p class="footer-text-contact"><i class="fa-solid fa-location-arrow me-2"></i>ডগাইর, ডেমরা, ঢাকা ১৩৬১</p>
+          <p class="footer-text-contact"><i class="fa-solid fa-envelope me-2"></i>ecoeats.bd@gmail.com</p>
+          <p class="footer-text-contact"><i class="fa-solid fa-headset me-2"></i>+8801234567899</p>
+        </div>
+        <div class="col-md">
+          <h6 class="footer-titel">সোশ্যাল মিডিয়া</h6>
+          <div class="social-icon d-flex gap-2">
+            <a href="" class="icon-group"><i class="fa-solid fa-user-group"></i></a>
+            <a href="" class="icon-facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="" class="icon-messenger"><i class="fa-brands fa-facebook-messenger"></i></a>
+            <a href="" class="icon-phone"><i class="fa-solid fa-phone-volume"></i></a>
+            <a href="" class="icon-whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="" class="icon-mail"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="divider">
+      <div class="section-copyright d-flex justify-content-between">
+        <p class="footer-text"><i class="fa-regular fa-copyright"></i>2020-2024 EcoEats. All rights reserved.</p>
+        <p class="footer-text">Name</p>
+      </div>
+    </div>
+  </footer>
+
+  <!--jquery min-->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- boostrap js cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Fancy box cdn  -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+  <!-- external js -->
+  <script src="js/script.js"></script>
+  <script>
+    $(document).ready(function () {
+
+
+      var pCart = $("#p-cart");
+
+      function updateTotal() {
+        var cartItems = $('.cart-item');
+        var subtotal = $("#subtotal_amount").data("subtotal");
+        var total_amount = $("#total_amount").data("total");
+        var delivery_charge = $("#delivery_charge_amount").data("delivery");
+        var cod_charge_percent = $("#cod_charge_amount").data("cod");
+
+        var calc_subtotal = 0;
+        var obj = {
+          cartItems: []
+        };
+
+        cartItems.each(function () {
+
+
+          var price = $(this).data("p-price");
+          var weight = $(this).data("p-weight");
+          var name = $(this).data("p-name");
+          var quantity = $(this).find(".add-quantity :selected").val();
+          var id = $(this).data("p-id");
+          var ptotal = price * quantity;
+
+          calc_subtotal += ptotal;
+          console.log(calc_subtotal, ptotal, price, quantity, id);
+
+          obj.cartItems.push({
+            id: id,
+            name: name,
+            quantity: quantity,
+            price: price,
+            weight: weight
+          });
+
+
+        })
+
+
+
+
+        var total = calc_subtotal + delivery_charge;
+        var cod_charge_amount = (total * cod_charge_percent) / 100;
+        total = total + cod_charge_amount;
+        obj.subtotal = calc_subtotal;
+        obj.delivery_charge = delivery_charge;
+        obj.cod = cod_charge_percent;
+        obj.total = total;
+        obj._token = $('meta[name="csrf-token"]').attr("content");
+
+        $("#subtotal_amount").text(calc_subtotal.toFixed(2) + " TK");
+        $("#total_amount").text(total.toFixed(2) + " TK");
+        $("#cod_charge_amount").text(cod_charge_amount.toFixed(2) + " TK");
+
+
+
+        // var formData = new FormData();
+        // formData.append('data', 'test');
+        // formData.append('_token', $('meta[name="csrf-token"]').attr("content"));
+        //     $.ajax({
+        //     url: "{{ route('cart.add.json') }}",
+        //     method: "POST",
+        //     contentType: "application/json",
+        //     headers: {
+        //         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        //     },
+        //     data: JSON.stringify(obj),
+        //     success: function(response) {
+        //         console.log('Success:', response);
+        //         // alert(response.message || 'Added to cart successfully!');
+        //     },
+        //     error: function(xhr) {
+        //         console.error('Error:', xhr);
+        //         // alert(`Error: ${xhr.status} - ${xhr.responseText}`);
+        //     }
+        // });
+
+
+
+
+      }
+
+      // Attach a click event to each `.p-item`
+      $(".p-item").on('click', function () {
+        // Toggle the 'p-selected' class
+        $(this).toggleClass('p-selected');
+
+        // Retrieve data attributes
+        var price = $(this).data("p-price"); // No need for `data-` prefix in `.data()`
+        var weight = $(this).data("p-weight");
+        var name = $(this).data("p-name");
+        var id = $(this).data("p-id");
+
+        // Log the values (optional)
+        console.log("Price:", price, "Weight:", weight, "Name:", name, "ID:", id);
+
+        // Add the item to the cart
+        if ($(pCart).find("#cart-item-" + id + "").length == 0) {
+          pCart.append(`<div id="cart-item-${id}" class="cart-item price-info mt-4" data-p-id="${id}" data-p-price="${price}" data-p-weight="${weight}" data-p-name="${name}" >
+                        <div class="d-flex justify-content-between">
+                            <h5 class="fw-bold">${name} <span> ${weight}</span></h5>
+                            <button type="button" class="delete-btn" >
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p class="price-list"><span>৳ ${price} </span><span> x </span> <span class="quantity">১</span> <span>=</span>
+                                <span class="total-price">${price}</span>
+                            </p>
+                            <span>
+
+                                <input class="id" value="${id}" type="hidden" />
+                                <select name="quantity" class="add-quantity form-control ms-auto mt-2"
+                                    autocomplete="off" required="">
+                                    <option value="1" selected="selected">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+
+                            </span>
+                        </div>
+                    </div>
+            `);
+        } else {
+          $(pCart).find("#cart-item-" + id + "").remove();
+        }
+
+        updateTotal();
+      });
+
+      // Attach a click event to each `.delete-btn`
+
+      // Use event delegation to handle dynamically added elements
+      $(document).on("click", ".delete-btn", function () {
+        console.log("Delete button clicked");
+
+        // Get the cart item ID using .closest()
+        var id = $(this).closest('.cart-item').data("p-id");
+        console.log("Item ID to remove:", id);
+        if ($(".product-list").find("#product-" + id + "").hasClass("p-selected")) {
+          $(".product-list").find("#product-" + id + "").removeClass("p-selected");
+        }
+
+        // Remove the item from the cart
+        $(this).closest('.cart-item').remove();
+
+        // Update the cart total
+        updateTotal();
+      });
+      $("#deliveryArea").on("change", function () {
+        var id = $(this).find(":selected").val();
+        var id = $(this).find(":selected").val();
+        var charge = $(this).find(":selected").data("charge");
+        $("#delivery_charge_amount").data("delivery", charge);
+        $("#delivery_charge_amount").text(charge.toFixed(2) + " TK");
+        updateTotal();
+      })
+
+      $(document).on("change", ".add-quantity", function () {
+        updateTotal();
+      });
+      updateTotal();
+
+    });
+    Fancybox.bind('[data-fancybox="gallery-item"]', {
+      // Your custom options for a specific gallery
+    });
+
+
+  </script>
+</body>
+
+</html>
